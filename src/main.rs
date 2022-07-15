@@ -9,7 +9,6 @@ fn main() {
             Arg::with_name("alias")
                 .value_name("ALIAS")
                 .help("Alias name")
-                .required(true)
                 .max_values(1),
         )
         .arg(
