@@ -1,3 +1,9 @@
+use clap::App;
+
 fn main() {
-    println!("Hello, world!");
+    let _matches = App::new("ram")
+        .version("0.1.0")
+        .author("Todd W Crone <twcrone@gmail.com>")
+        .about("Alias Manager")
+        .get_matches();
 }
